@@ -33,7 +33,6 @@ Một số thực là lượng nhiên liệu nhỏ nhất mà hải tặc cần 
 Test 1: 
 
 Input: 
-
 n: 3 
 m: 3 
 p: 3 
@@ -49,7 +48,6 @@ Output: 4√2 = 5.65685
 Test 2: 
 
 Input: 
-
 n: 3 
 m: 4 
 p: 3 
@@ -65,7 +63,6 @@ Output: 5
 Test 3: 
 
 Input: 
-
 n: 3 
 m: 4 
 p: 12 
@@ -78,7 +75,7 @@ p: 12
 
 Output: 11
 
-## Cài Đặt
+## Cài Đặt Dự Án
 
 ### 1. Cài Đặt Backend (C#)
 
