@@ -138,7 +138,7 @@ Output: 11
 
 1. **Di chuyển đến thư mục frontend**:
     ```bash
-    cd TreasureHuntFE/treasure-hunt-app
+    cd TreasureHuntFE
     ```
 
 2. **Cài Đặt Dependencies**:
