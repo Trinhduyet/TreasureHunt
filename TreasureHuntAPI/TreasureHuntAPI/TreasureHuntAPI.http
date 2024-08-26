@@ -1,0 +1,16 @@
+@TreasureHuntAPI_HostAddress = http://localhost:5107
+
+POST {{TreasureHuntAPI_HostAddress}}/api/TreasureHunt
+Accept: application/json
+Body: '{
+    "N": 3,
+    "M": 3,
+    "P": 3,
+    "Matrix": [
+        [3, 2, 2],
+        [2, 2, 2],
+        [2, 2, 1]
+    ]
+}'
+
+###
