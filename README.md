@@ -29,6 +29,7 @@ p) là số thứ tự của rương trong mỗi hòn đảo. Và chỉ có mộ
 Một số thực là lượng nhiên liệu nhỏ nhất mà hải tặc cần có để lấy được rương kho báu. 
 
 **Example**: 
+
 Test 1: 
 
 Input: 
@@ -36,8 +37,11 @@ Input:
 n: 3 
 m: 3 
 p: 3 
+
 3 2 2 
+
 2 2 2 
+
 2 2 1 
 
 Output: 4√2 = 5.65685 
@@ -49,8 +53,11 @@ Input:
 n: 3 
 m: 4 
 p: 3 
+
 2 1 1 1 
+
 1 1 1 1 
+
 2 1 1 3 
 
 Output: 5 
@@ -62,8 +69,11 @@ Input:
 n: 3 
 m: 4 
 p: 12 
+
 1 2 3 4 
+
 8 7 6 5 
+
 9 10 11 12 
 
 Output: 11
