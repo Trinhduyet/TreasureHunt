@@ -193,7 +193,7 @@ Output: 11
         image: mcr.microsoft.com/mssql/server:2019-latest
         container_name: sqlserver_container
         environment:
-          SA_PASSWORD: "TreasureHunt@Password"
+          SA_PASSWORD: "YourStrong@Password"
           ACCEPT_EULA: "Y"
         ports:
           - "1433:1433"
@@ -214,7 +214,7 @@ Output: 11
    - Lệnh trên sẽ tải hình ảnh SQL Server, tạo và khởi chạy container. Cơ sở dữ liệu SQL Server sẽ được mở trên cổng 1433.
 
 3. **Kết Nối Backend với SQL Server**:
-   - Đảm bảo rằng chuỗi kết nối trong ứng dụng backend trỏ đến `localhost,1433` và sử dụng mật khẩu `TreasureHunt@Password` cho người dùng `sa`.
+   - Đảm bảo rằng chuỗi kết nối trong ứng dụng backend trỏ đến `localhost,1433` và sử dụng mật khẩu `YourStrong@Password` cho người dùng `sa`.
 
 ## Tài Liệu Tham Khảo
 
